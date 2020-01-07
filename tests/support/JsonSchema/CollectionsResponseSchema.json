@@ -1,0 +1,1969 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "collections": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "collection": {
+              "type": "object",
+              "properties": {
+                "collection_id": {
+                  "type": "integer"
+                },
+                "res_count": {
+                  "type": "integer"
+                },
+                "image_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "share_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "collection_id",
+                "res_count",
+                "image_url",
+                "url",
+                "title",
+                "description",
+                "share_url"
+              ]
+            }
+          },
+          "required": [
+            "collection"
+          ]
+        }
+      ]
+    },
+    "has_more": {
+      "type": "integer"
+    },
+    "share_url": {
+      "type": "string"
+    },
+    "display_text": {
+      "type": "string"
+    },
+    "has_total": {
+      "type": "integer"
+    },
+    "user_has_addresses": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "collections",
+    "has_more",
+    "share_url",
+    "display_text",
+    "has_total",
+    "user_has_addresses"
+  ]
+}

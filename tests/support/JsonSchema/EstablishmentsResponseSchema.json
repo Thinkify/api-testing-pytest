@@ -1,0 +1,658 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "establishments": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "establishment": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
+          "required": [
+            "establishment"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "establishments"
+  ]
+}

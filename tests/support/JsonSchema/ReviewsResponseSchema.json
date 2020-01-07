@@ -1,0 +1,467 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "reviews_count": {
+      "type": "integer"
+    },
+    "reviews_start": {
+      "type": "integer"
+    },
+    "reviews_shown": {
+      "type": "integer"
+    },
+    "user_reviews": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "review": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "integer"
+                },
+                "review_text": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "rating_color": {
+                  "type": "string"
+                },
+                "review_time_friendly": {
+                  "type": "string"
+                },
+                "rating_text": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "likes": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "zomato_handle": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "comments_count": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "rating",
+                "review_text",
+                "id",
+                "rating_color",
+                "review_time_friendly",
+                "rating_text",
+                "timestamp",
+                "likes",
+                "user",
+                "comments_count"
+              ]
+            }
+          },
+          "required": [
+            "review"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "review": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "integer"
+                },
+                "review_text": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "rating_color": {
+                  "type": "string"
+                },
+                "review_time_friendly": {
+                  "type": "string"
+                },
+                "rating_text": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "likes": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "comments_count": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "rating",
+                "review_text",
+                "id",
+                "rating_color",
+                "review_time_friendly",
+                "rating_text",
+                "timestamp",
+                "likes",
+                "user",
+                "comments_count"
+              ]
+            }
+          },
+          "required": [
+            "review"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "review": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "integer"
+                },
+                "review_text": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "rating_color": {
+                  "type": "string"
+                },
+                "review_time_friendly": {
+                  "type": "string"
+                },
+                "rating_text": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "likes": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "zomato_handle": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "comments_count": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "rating",
+                "review_text",
+                "id",
+                "rating_color",
+                "review_time_friendly",
+                "rating_text",
+                "timestamp",
+                "likes",
+                "user",
+                "comments_count"
+              ]
+            }
+          },
+          "required": [
+            "review"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "review": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "integer"
+                },
+                "review_text": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "rating_color": {
+                  "type": "string"
+                },
+                "review_time_friendly": {
+                  "type": "string"
+                },
+                "rating_text": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "likes": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "comments_count": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "rating",
+                "review_text",
+                "id",
+                "rating_color",
+                "review_time_friendly",
+                "rating_text",
+                "timestamp",
+                "likes",
+                "user",
+                "comments_count"
+              ]
+            }
+          },
+          "required": [
+            "review"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "review": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "integer"
+                },
+                "review_text": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "rating_color": {
+                  "type": "string"
+                },
+                "review_time_friendly": {
+                  "type": "string"
+                },
+                "rating_text": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "likes": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "comments_count": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "rating",
+                "review_text",
+                "id",
+                "rating_color",
+                "review_time_friendly",
+                "rating_text",
+                "timestamp",
+                "likes",
+                "user",
+                "comments_count"
+              ]
+            }
+          },
+          "required": [
+            "review"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "reviews_count",
+    "reviews_start",
+    "reviews_shown",
+    "user_reviews"
+  ]
+}

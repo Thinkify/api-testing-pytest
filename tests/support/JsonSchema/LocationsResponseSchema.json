@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "location_suggestions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entity_type": {
+              "type": "string"
+            },
+            "entity_id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "city_id": {
+              "type": "integer"
+            },
+            "city_name": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "country_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entity_type",
+            "entity_id",
+            "title",
+            "latitude",
+            "longitude",
+            "city_id",
+            "city_name",
+            "country_id",
+            "country_name"
+          ]
+        }
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "has_more": {
+      "type": "integer"
+    },
+    "has_total": {
+      "type": "integer"
+    },
+    "user_has_addresses": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "location_suggestions",
+    "status",
+    "has_more",
+    "has_total",
+    "user_has_addresses"
+  ]
+}

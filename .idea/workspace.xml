@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103873a9-1ae0-4fa1-b65b-59a874b54a92" name="Default Changelist" comment="" />
+    <list default="true" id="103873a9-1ae0-4fa1-b65b-59a874b54a92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/praveen_souda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/praveen_souda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonApis/test_common_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonApis/test_common_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LocationApis/test_location_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/LocationApis/test_location_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RestaurantApis/test_restaurant_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RestaurantApis/test_restaurant_apis.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W11tkk70qdvu6KIZNvUfuhe9dX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,10 +36,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/support/JsonSchema" />
+      <recent name="$PROJECT_DIR$/tests/CommonApis" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
@@ -59,9 +77,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578367843194">
+    <state x="557" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578369299720">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="557" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1578367843194" />
+    <state x="557" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1578369299720" />
+    <state x="784" y="298" key="FileChooserDialogImpl" timestamp="1578376692134">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="784" y="298" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1578376692134" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1578371047636">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1578371047636" />
+    <state x="506" y="172" width="981" height="729" key="find.popup" timestamp="1578376692327">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="506" y="172" width="981" height="729" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1578376692327" />
   </component>
 </project>

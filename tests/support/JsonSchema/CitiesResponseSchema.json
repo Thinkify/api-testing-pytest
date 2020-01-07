@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "location_suggestions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "country_name": {
+              "type": "string"
+            },
+            "country_flag_url": {
+              "type": "string"
+            },
+            "should_experiment_with": {
+              "type": "integer"
+            },
+            "has_go_out_tab": {
+              "type": "integer"
+            },
+            "discovery_enabled": {
+              "type": "integer"
+            },
+            "has_new_ad_format": {
+              "type": "integer"
+            },
+            "is_state": {
+              "type": "integer"
+            },
+            "state_id": {
+              "type": "integer"
+            },
+            "state_name": {
+              "type": "string"
+            },
+            "state_code": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "country_id",
+            "country_name",
+            "country_flag_url",
+            "should_experiment_with",
+            "has_go_out_tab",
+            "discovery_enabled",
+            "has_new_ad_format",
+            "is_state",
+            "state_id",
+            "state_name",
+            "state_code"
+          ]
+        }
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "has_more": {
+      "type": "integer"
+    },
+    "has_total": {
+      "type": "integer"
+    },
+    "user_has_addresses": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "location_suggestions",
+    "status",
+    "has_more",
+    "has_total",
+    "user_has_addresses"
+  ]
+}

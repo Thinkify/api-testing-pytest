@@ -1,0 +1,487 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "daily_menus": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "daily_menu": {
+              "type": "object",
+              "properties": {
+                "daily_menu_id": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string"
+                },
+                "end_date": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "dishes": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "dish": {
+                          "type": "object",
+                          "properties": {
+                            "dish_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "dish_id",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dish"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "daily_menu_id",
+                "start_date",
+                "end_date",
+                "name",
+                "dishes"
+              ]
+            }
+          },
+          "required": [
+            "daily_menu"
+          ]
+        }
+      ]
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "daily_menus",
+    "status"
+  ]
+}

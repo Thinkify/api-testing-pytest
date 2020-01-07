@@ -1,0 +1,1284 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "R": {
+      "type": "object",
+      "properties": {
+        "has_menu_status": {
+          "type": "object",
+          "properties": {
+            "delivery": {
+              "type": "integer"
+            },
+            "takeaway": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "delivery",
+            "takeaway"
+          ]
+        },
+        "res_id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "has_menu_status",
+        "res_id"
+      ]
+    },
+    "apikey": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "locality": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "city_id": {
+          "type": "integer"
+        },
+        "latitude": {
+          "type": "string"
+        },
+        "longitude": {
+          "type": "string"
+        },
+        "zipcode": {
+          "type": "string"
+        },
+        "country_id": {
+          "type": "integer"
+        },
+        "locality_verbose": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "locality",
+        "city",
+        "city_id",
+        "latitude",
+        "longitude",
+        "zipcode",
+        "country_id",
+        "locality_verbose"
+      ]
+    },
+    "switch_to_order_menu": {
+      "type": "integer"
+    },
+    "cuisines": {
+      "type": "string"
+    },
+    "timings": {
+      "type": "string"
+    },
+    "average_cost_for_two": {
+      "type": "integer"
+    },
+    "price_range": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "highlights": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "offers": {
+      "type": "array",
+      "items": {}
+    },
+    "opentable_support": {
+      "type": "integer"
+    },
+    "is_zomato_book_res": {
+      "type": "integer"
+    },
+    "mezzo_provider": {
+      "type": "string"
+    },
+    "is_book_form_web_view": {
+      "type": "integer"
+    },
+    "book_form_web_view_url": {
+      "type": "string"
+    },
+    "book_again_url": {
+      "type": "string"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "user_rating": {
+      "type": "object",
+      "properties": {
+        "aggregate_rating": {
+          "type": "string"
+        },
+        "rating_text": {
+          "type": "string"
+        },
+        "rating_color": {
+          "type": "string"
+        },
+        "rating_obj": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text"
+              ]
+            },
+            "bg_color": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "tint": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "tint"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "bg_color"
+          ]
+        },
+        "votes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "aggregate_rating",
+        "rating_text",
+        "rating_color",
+        "rating_obj",
+        "votes"
+      ]
+    },
+    "all_reviews_count": {
+      "type": "integer"
+    },
+    "photos_url": {
+      "type": "string"
+    },
+    "photo_count": {
+      "type": "integer"
+    },
+    "photos": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "zomato_handle": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "photo": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "thumb_url": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "foodie_level": {
+                      "type": "string"
+                    },
+                    "foodie_level_num": {
+                      "type": "integer"
+                    },
+                    "foodie_color": {
+                      "type": "string"
+                    },
+                    "profile_url": {
+                      "type": "string"
+                    },
+                    "profile_image": {
+                      "type": "string"
+                    },
+                    "profile_deeplink": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "foodie_level",
+                    "foodie_level_num",
+                    "foodie_color",
+                    "profile_url",
+                    "profile_image",
+                    "profile_deeplink"
+                  ]
+                },
+                "res_id": {
+                  "type": "integer"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "friendly_time": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "url",
+                "thumb_url",
+                "user",
+                "res_id",
+                "caption",
+                "timestamp",
+                "friendly_time",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "photo"
+          ]
+        }
+      ]
+    },
+    "menu_url": {
+      "type": "string"
+    },
+    "featured_image": {
+      "type": "string"
+    },
+    "has_online_delivery": {
+      "type": "integer"
+    },
+    "is_delivering_now": {
+      "type": "integer"
+    },
+    "include_bogo_offers": {
+      "type": "boolean"
+    },
+    "deeplink": {
+      "type": "string"
+    },
+    "is_table_reservation_supported": {
+      "type": "integer"
+    },
+    "has_table_booking": {
+      "type": "integer"
+    },
+    "events_url": {
+      "type": "string"
+    },
+    "phone_numbers": {
+      "type": "string"
+    },
+    "all_reviews": {
+      "type": "object",
+      "properties": {
+        "reviews": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "review": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "review"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "review": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "review"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "review": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "review"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "review": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "review"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "review": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "review"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "reviews"
+      ]
+    },
+    "establishment": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "required": [
+    "R",
+    "apikey",
+    "id",
+    "name",
+    "url",
+    "location",
+    "switch_to_order_menu",
+    "cuisines",
+    "timings",
+    "average_cost_for_two",
+    "price_range",
+    "currency",
+    "highlights",
+    "offers",
+    "opentable_support",
+    "is_zomato_book_res",
+    "mezzo_provider",
+    "is_book_form_web_view",
+    "book_form_web_view_url",
+    "book_again_url",
+    "thumb",
+    "user_rating",
+    "all_reviews_count",
+    "photos_url",
+    "photo_count",
+    "photos",
+    "menu_url",
+    "featured_image",
+    "has_online_delivery",
+    "is_delivering_now",
+    "include_bogo_offers",
+    "deeplink",
+    "is_table_reservation_supported",
+    "has_table_booking",
+    "events_url",
+    "phone_numbers",
+    "all_reviews",
+    "establishment"
+  ]
+}

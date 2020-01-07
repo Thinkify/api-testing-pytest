@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "cuisines": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cuisine": {
+              "type": "object",
+              "properties": {
+                "cuisine_id": {
+                  "type": "integer"
+                },
+                "cuisine_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "cuisine_id",
+                "cuisine_name"
+              ]
+            }
+          },
+          "required": [
+            "cuisine"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cuisine": {
+              "type": "object",
+              "properties": {
+                "cuisine_id": {
+                  "type": "integer"
+                },
+                "cuisine_name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "cuisine_id",
+                "cuisine_name"
+              ]
+            }
+          },
+          "required": [
+            "cuisine"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "cuisines"
+  ]
+}
